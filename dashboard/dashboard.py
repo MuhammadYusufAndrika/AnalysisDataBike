@@ -70,8 +70,8 @@ season_df = macem_season(main_df_hour)
 
 # Melengkapi Dashboard dengan Berbagai Visualisasi Data
 st.header('Bike Sharing :sparkles:')
+st.header('Come if You Need a Bike')
 
-st.subheader('Daily Sharing')
 col1, col2, col3 = st.columns(3)
  
 # Menghitung total orders secara langsung dari main_df_days
@@ -111,8 +111,9 @@ ax[1].yaxis.set_label_position("right")
 ax[1].yaxis.tick_right()
 ax[1].tick_params(axis='y', labelsize=35)
 ax[1].tick_params(axis='x', labelsize=30)
- 
 st.pyplot(fig)
+
+st.caption('Berikut adalah hasil analysys data menunjukan bahwa sepeda paling banyak disewa pukul 17.00 dan paling sedikit pukul 4')
 
 # Visualisasi penyewaan per musim
 st.subheader("pada musim apa sepeda paling banyak disewa orang?")
@@ -131,3 +132,5 @@ ax.set_xlabel(None)
 ax.tick_params(axis='x', labelsize=35)
 ax.tick_params(axis='y', labelsize=30)
 st.pyplot(fig)
+
+st.caption('Berikut adalah daftar pada musim apa orang banyak menyewa sepeda, pada musim fall dengan jumlah penyewa mencapai 1061129')
