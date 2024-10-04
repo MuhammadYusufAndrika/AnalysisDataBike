@@ -1,9 +1,5 @@
 # Submission Dicoding "Belajar Analisis Data dengan Python"
 
-## Preview
-
-![Bike Sharing Dashboard Streamlit Preview]()
-
 ## Deskripsi
 
 Proyek ini bertujuan untuk menganalisis data pada Bike Sharing Dataset. Tujuan akhirnya adalah untuk menghasilkan wawasan dan informasi yang berguna dari data yang dianalisis. dan mengambil kesimpulan berdasarkan data dan informasi yang kita peroleh setelah analisis
